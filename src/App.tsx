@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+// @ts-expect-error
+import DecoyMeta from "react-decoy-meta";
 import "./App.css";
 
 function App() {
@@ -13,6 +16,7 @@ function App() {
         boxShadow: "0 2px 16px #0001",
       }}
     >
+      <DecoyMeta />
       <header style={{ marginBottom: "2rem" }}>
         <h1 style={{ fontSize: "2.5rem", marginBottom: 0 }}>
           The Beauty of Everyday Moments
@@ -21,7 +25,7 @@ function App() {
           By Jane Doe &middot; August 12, 2025
         </p>
       </header>
-      <article style={{color: "#000"}}>
+      <article style={{ color: "#000" }}>
         <section style={{ marginBottom: "1.5rem" }}>
           <h2>Introduction</h2>
           <p>
